@@ -2,8 +2,8 @@
 
 ## Project Links
 
-- [add your github repo link](https://github.com/jkellzz/ReactProject)
-- [add your deployment link](NOTDONEYET)
+- https://github.com/jkellzz/ReactProject
+- https://festive-brown-96e11b.netlify.com
 
 ## Project Description
 
@@ -76,8 +76,8 @@ __proto__: Object
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes] https://res.cloudinary.com/dtzbye6dy/image/upload/v1585234003/IMG_1082_pgte9a.heic
-- [add link to your react architecture] 
+- Wireframe: https://res.cloudinary.com/dtzbye6dy/image/upload/v1585234003/IMG_1082_pgte9a.heic
+- Architecture: https://docs.google.com/drawings/d/1ju7c1QyP7JWpYMBEM9EG5ltXbJpeN8iufQjs5BLDPLU/edit?usp=sharing
 
 
 ### MVP/PostMVP - 5min
@@ -104,8 +104,14 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
-| Styles.css | Will hold all css for the application | 
+| Header | First div with title and search bar | 
 | Recipe | This will hold basic information about the recipe (calories, ingredients, image, and title)| 
+| Featured | Will show the top hits for that day/week | 
+| Breakfast | Will show all time favorite breakfasts | 
+| Lunch | Will show all time favorite Lunches | 
+| Dinner | Will show all time favorite Dinners | 
+| Footer | Basic Footer | 
+
 
 **This is subject to change as the project is underway. This is simply a template I would like to follow to start.** 
 
@@ -114,11 +120,16 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-|  | H | hrs| hrs | hrs |
-|  | H | hrs| hrs | hrs |
-|  | H | hrs| hrs | hrs |
-|  | H | hrs| hrs | hrs |
-| Total | H | hrs| hrs | hrs |
+| App | H | hrs| hrs | hrs |
+| Header | H | 6hrs| hrs | hrs |
+| Recipe | H | 4hrs| hrs | hrs |
+| Featured | H | 6hrs| hrs | hrs |
+| Breakfast | M | 4hrs| hrs | hrs |
+| Lunch | M | 4hrs| hrs | hrs |
+| Dinner | M | 4hrs| hrs | hrs |
+| Footer | M | 2hrs| hrs | hrs |
+| Styling | H | 6hrs| hrs | hrs |
+| Total | H | hrs| 36hrs | hrs |
 
 ## Additional Libraries
 React Bootstrap
