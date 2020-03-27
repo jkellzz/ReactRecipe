@@ -110,6 +110,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Breakfast | Will show all time favorite breakfasts | 
 | Lunch | Will show all time favorite Lunches | 
 | Dinner | Will show all time favorite Dinners | 
+| NavBar | Basic nav bar with menu and faves | 
 | Footer | Basic Footer | 
 
 
@@ -128,8 +129,9 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Lunch | M | 4hrs| hrs | hrs |
 | Dinner | M | 4hrs| hrs | hrs |
 | Footer | M | 2hrs| hrs | hrs |
+| NavBar | L | 4hrs| hrs | hrs |
 | Styling | H | 6hrs| hrs | hrs |
-| Total | H | hrs| 36hrs | hrs |
+| Total | H | hrs| 40hrs | hrs |
 
 ## Additional Libraries
 React Bootstrap
