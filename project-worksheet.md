@@ -76,8 +76,8 @@ __proto__: Object
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes](https://res.cloudinary.com/dtzbye6dy/image/upload/v1585234003/IMG_1082_pgte9a.heic)
-- [add link to your react architecture]()
+- [add link to your wireframes] https://res.cloudinary.com/dtzbye6dy/image/upload/v1585234003/IMG_1082_pgte9a.heic
+- [add link to your react architecture] 
 
 
 ### MVP/PostMVP - 5min
