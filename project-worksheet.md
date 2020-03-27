@@ -18,8 +18,57 @@ So there were a couple of API's I was looking at for this project:
 
 There are pros and cons for each of these API's after some research I believe that Edamam is going to suit my needs best. It gives me the ability to make 5000 api calls/month, diet health and allergy filtering, basic nutritional information, up to 100 results per call, ALL FOR FREE. All they ask for is attribution which I will happily agree to. Also a gentleman by the name of Brandon, who I had the pleasure of hiring and working with, created a Mobile application useing this API and he raved about it. I hope to one day recreate his application, it is awesome. 
 
+https://developer.edamam.com/edamam-docs-recipe-api
+
+
 ```
-{data: {} }
+{q: "chicken", from: 0, to: 10, more: true, count: 168106, …}
+q: "chicken"
+from: 0
+to: 10
+more: true
+count: 168106
+hits: Array(10)
+0:
+recipe: {uri: "http://www.edamam.com/ontologies/edamam.owl#recipe_b79327d05b8e5b838ad6cfd9576b30b6", label: "Chicken Vesuvio", image: "https://www.edamam.com/web-img/e42/e42f9119813e890af34c259785ae1cfb.jpg", source: "Serious Eats", url: "http://www.seriouseats.com/recipes/2011/12/chicken-vesuvio-recipe.html", …}
+bookmarked: false
+bought: false
+__proto__: Object
+1:
+recipe:
+uri: "http://www.edamam.com/ontologies/edamam.owl#recipe_8275bb28647abcedef0baaf2dcf34f8b"
+label: "Chicken Paprikash"
+image: "https://www.edamam.com/web-img/e12/e12b8c5581226d7639168f41d126f2ff.jpg"
+source: "No Recipes"
+url: "http://norecipes.com/recipe/chicken-paprikash/"
+shareAs: "http://www.edamam.com/recipe/chicken-paprikash-8275bb28647abcedef0baaf2dcf34f8b/chicken"
+yield: 4
+dietLabels: ["Low-Carb"]
+healthLabels: (3) ["Peanut-Free", "Tree-Nut-Free", "Alcohol-Free"]
+cautions: (2) ["Sulfites", "FODMAP"]
+ingredientLines: (11) ["640 grams chicken - drumsticks and thighs ( 3 whole chicken legs cut apart)", "1/2 teaspoon salt", "1/4 teaspoon black pepper", "1 tablespoon butter – cultured unsalted (or olive oil)", "240 grams onion sliced thin (1 large onion)", "70 grams Anaheim pepper chopped (1 large pepper)", "25 grams paprika (about 1/4 cup)", "1 cup chicken stock", "1/2 teaspoon salt", "1/2 cup sour cream", "1 tablespoon flour – all-purpose"]
+ingredients: (12) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+calories: 3033.2012500008163
+totalWeight: 1824.6125000003276
+totalTime: 0
+totalNutrients: {ENERC_KCAL: {…}, FAT: {…}, FASAT: {…}, FATRN: {…}, FAMS: {…}, …}
+totalDaily: {ENERC_KCAL: {…}, FAT: {…}, FASAT: {…}, CHOCDF: {…}, FIBTG: {…}, …}
+digest: (26) [{…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}, {…}]
+__proto__: Object
+bookmarked: false
+bought: false
+__proto__: Object
+2: {recipe: {…}, bookmarked: false, bought: false}
+3: {recipe: {…}, bookmarked: false, bought: false}
+4: {recipe: {…}, bookmarked: false, bought: false}
+5: {recipe: {…}, bookmarked: false, bought: false}
+6: {recipe: {…}, bookmarked: false, bought: false}
+7: {recipe: {…}, bookmarked: false, bought: false}
+8: {recipe: {…}, bookmarked: false, bought: false}
+9: {recipe: {…}, bookmarked: false, bought: false}
+length: 10
+__proto__: Array(0)
+__proto__: Object
 ```
 
 
@@ -55,9 +104,8 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
-| Header | This will render the header include the nav| 
-| Form | This will render the search bar and have full functionality|
-| Recipe | This will hold the entirety of the project then be imported into app.js| 
+| Styles.css | Will hold all css for the application | 
+| Recipe | This will hold basic information about the recipe (calories, ingredients, image, and title)| 
 
 **This is subject to change as the project is underway. This is simply a template I would like to follow to start.** 
 
@@ -73,7 +121,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Total | H | hrs| hrs | hrs |
 
 ## Additional Libraries
- Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
+React Bootstrap
+React router dom
 
 ## Code Snippet
 
