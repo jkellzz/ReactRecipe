@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import './App.css';
+import Header from './components/Header'
+
 
 const App = () => {
   const APP_ID = 'f2c5ef65'
@@ -18,13 +20,9 @@ const App = () => {
 
 
   return(
-    <div className='App'>
-     <h1>I want to make...</h1>
-     <form className='search-form'>
-       <input className='search-bar' type='text'/>
-       <button className='search-button' type='submit'>Search</button>
-     </form>
-    </div>
+    <div>
+    <Header/>
+     </div>
   )
 }
 
