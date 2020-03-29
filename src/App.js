@@ -10,6 +10,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([])
 
+
   // useEffect( () => {
   //   getRecipes()
   // }, [])
@@ -26,7 +27,9 @@ const App = () => {
     <div>
     <Header/>
     {recipes.map(recipe => (
-          <Recipe title={recipe.recipe.label}
+          <Recipe 
+          key={recipe.recipe.label}
+          title={recipe.recipe.label}
           calories={recipe.recipe.calories}
           image={recipe.recipe.image}/>
     ))}
