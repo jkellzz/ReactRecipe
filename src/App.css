@@ -1,35 +1,35 @@
 .App {
+  min-height: 100vh;
+}
+
+#header {
   text-align: center;
+  background: lightblue;
+  height: 10vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
 }
 
-.App {
-  background-color:lightblue;
-  height: 90px;
-  padding: 30px;
+.search-button {
+  background: lightblue;
+  border: none;
+  padding: 10px 20px;
   color: black;
-  margin-bottom: 2rem;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Rec {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
