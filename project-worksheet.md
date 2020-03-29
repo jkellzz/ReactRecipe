@@ -16,7 +16,7 @@ So there were a couple of API's I was looking at for this project:
 - https://developer.edamam.com/edamam-recipe-api
 - https://api2.bigoven.com/
 
-There are pros and cons for each of these API's after some research I believe that Edamam is going to suit my needs best. It gives me the ability to make 5000 api calls/month, diet health and allergy filtering, basic nutritional information, up to 100 results per call, ALL FOR FREE. All they ask for is attribution which I will happily agree to. Also a gentleman by the name of Brandon, who I had the pleasure of hiring and working with, created a Mobile application useing this API and he raved about it. I hope to one day recreate his application, it is awesome. 
+There are pros and cons for each of these API's after some research I believe that Edamam is going to best suit my needs. It gives me the ability to make 5000 api calls/month, diet health and allergy filtering, basic nutritional information, up to 100 results per call, ALL FOR FREE. All they ask for is attribution which I will happily agree to. Also a gentleman by the name of Brandon, who I had the pleasure of hiring and working with, created a Mobile application useing this API and he raved about it. I hope to one day recreate his application, it is awesome. 
 
 https://developer.edamam.com/edamam-docs-recipe-api
 
@@ -76,7 +76,7 @@ __proto__: Object
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- Wireframe: https://res.cloudinary.com/dtzbye6dy/image/upload/v1585234003/IMG_1082_pgte9a.heic
+- Wireframe: https://drive.google.com/file/d/141ZV07oRUs3xsKJ8vwIqjkKFQ_Fsf3zv/view?usp=sharing
 - Architecture: https://docs.google.com/drawings/d/1ju7c1QyP7JWpYMBEM9EG5ltXbJpeN8iufQjs5BLDPLU/edit?usp=sharing
 
 
@@ -121,17 +121,19 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App | H | hrs| hrs | hrs |
+| App | H | 4hrs| hrs | hrs |
 | Header | H | 6hrs| hrs | hrs |
 | Recipe | H | 4hrs| hrs | hrs |
-| Featured | H | 6hrs| hrs | hrs |
-| Breakfast | M | 4hrs| hrs | hrs |
-| Lunch | M | 4hrs| hrs | hrs |
-| Dinner | M | 4hrs| hrs | hrs |
-| Footer | M | 2hrs| hrs | hrs |
-| NavBar | L | 4hrs| hrs | hrs |
+| Featured | H | 3hrs| hrs | hrs |
+| Breakfast | M | 2hrs| hrs | hrs |
+| Lunch | M | 2hrs| hrs | hrs |
+| Dinner | M | 2hrs| hrs | hrs |
+| Footer | M | 1hrs| hrs | hrs |
+| NavBar | L | 2hrs| hrs | hrs |
 | Styling | H | 6hrs| hrs | hrs |
-| Total | H | hrs| 40hrs | hrs |
+| Research | H | 6hrs| hrs | hrs |
+| Debugging | H | 6hrs| hrs | hrs |
+| Total | H | 44hrs| hrs | hrs |
 
 ## Additional Libraries
 React Bootstrap
