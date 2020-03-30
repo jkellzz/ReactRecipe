@@ -1,0 +1,32 @@
+.lunchrecipe {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: white;
+    align-items: center;
+    min-width: 30%;
+    padding: 1em;
+}
+
+.image {
+    border-radius: 60%;
+    width: 100px;
+    height: 100px;
+}
+
+.Cal {
+    font-weight: bolder;
+}
+
+.list {
+    font-family: monospace;
+}
+
+.lun {
+    flex-wrap: wrap;
+    display: flex;
+    
+}

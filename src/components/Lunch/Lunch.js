@@ -1,10 +1,31 @@
 import React from 'react'
+import './style.css'
 
-function lunch (props) {
-    return( 
-        <div>
-            <h1>Lunch</h1>
-        </div>
+const lunch = () => {
+        return( 
+            <div>
+                <h1 className='head'>Lunch</h1>
+                <div className='lun'>
+                <div className='lunchrecipe'>
+                <h1></h1>
+                <img className='image' src='' alt=''/>
+                <p className='Cal'>Calories</p>      
+                <li>Ingredients</li>
+            </div>
+            <div className='lunchrecipe'>
+                <h1></h1>
+                <img className='image' src='' alt=''/>
+                <p className='Cal'>Calories</p>      
+                <li>Ingredients</li>
+            </div>
+            <div className='lunchrecipe'>
+                <h1></h1>
+                <img className='image' src='' alt=''/>
+                <p className='Cal'>Calories</p>      
+                <li>Ingredients</li>
+            </div>
+            </div>
+            </div>
     )
 }
 
