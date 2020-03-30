@@ -1,6 +1,6 @@
 import React from 'react'
 
-function breakfast (props) {
+function dinner (props) {
     return( 
         <div>
             <h1>Hi</h1>
@@ -8,4 +8,4 @@ function breakfast (props) {
     )
 }
 
-export default breakfast
+export default dinner

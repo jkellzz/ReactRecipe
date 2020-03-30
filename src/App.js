@@ -1,5 +1,8 @@
 import React, {useEffect, useState} from 'react';
 import Recipe from './components/Recipe/Recipe'
+import Breakfast from './components/Breakfast/Breakfast'
+import Lunch from './components/Lunch/Lunch'
+import Dinner from './components/Dinner/Dinner'
 import './App.css';
 // import Header from './components/Header'
 
@@ -53,6 +56,9 @@ const getSearch = e => {
           />
     ))}
     </div>
+    <Breakfast/>
+    <Lunch/>
+    <Dinner/>
      </div>
   )
 }
