@@ -31,11 +31,12 @@
 
 .Rec {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 }
 
 .head {
   text-align: center;
   color: white;
+  padding: 2em;
 }

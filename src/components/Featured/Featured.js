@@ -5,7 +5,7 @@ import './style.css'
 const featured = () => {
     return( 
         <div>
-        <h1 className='head'>Featured</h1>
+        <h1 className='head'>Featured Dishes</h1>
         <div className='feat'>
         <div className='featrecipe'>
             <h1></h1>

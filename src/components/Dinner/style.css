@@ -11,10 +11,11 @@
     padding: 1em;
 }
 
-.image {
-    border-radius: 60%;
-    width: 100px;
-    height: 100px;
+.dinnerimage {
+    border-radius: 20%;
+    width: 60%;
+    height: 60%;
+    
 }
 
 .Cal {
@@ -29,4 +30,8 @@
     flex-wrap: wrap;
     display: flex;
     
+}
+.instruct {
+    text-decoration: none;
+    color: lightcoral;
 }
