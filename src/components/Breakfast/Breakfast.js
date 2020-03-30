@@ -3,7 +3,7 @@ import React from 'react'
 function breakfast (props) {
     return( 
         <div>
-            <h1>Hi</h1>
+            <h1>Breakfast</h1>
         </div>
     )
 }

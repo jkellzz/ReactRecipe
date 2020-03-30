@@ -3,7 +3,7 @@ import React from 'react'
 function lunch (props) {
     return( 
         <div>
-            <h1>Hi</h1>
+            <h1>Lunch</h1>
         </div>
     )
 }

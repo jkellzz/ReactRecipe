@@ -3,6 +3,7 @@ import Recipe from './components/Recipe/Recipe'
 import Breakfast from './components/Breakfast/Breakfast'
 import Lunch from './components/Lunch/Lunch'
 import Dinner from './components/Dinner/Dinner'
+import Featured from './components/Featured/Featured'
 import './App.css';
 // import Header from './components/Header'
 
@@ -13,7 +14,7 @@ const App = () => {
 
   const [recipes, setRecipes] = useState([])
   const [search, setSearch] = useState('')
-  const [query, setQuery] = useState('chicken')
+  const [query, setQuery] = useState('')
 
 
   useEffect( () => {
@@ -39,7 +40,7 @@ const getSearch = e => {
 
   return(
     <div className='App'>
-    {/* <h1 className='head'> I want to make... </h1> */}
+    <h1 className='head'> I want to make... </h1>
      <form onSubmit={getSearch} className='search-form'>
      <input className='search-bar' type='text' value={search}
      onChange={updateSearch}/>
@@ -56,6 +57,7 @@ const getSearch = e => {
           />
     ))}
     </div>
+    <Featured/>
     <Breakfast/>
     <Lunch/>
     <Dinner/>
