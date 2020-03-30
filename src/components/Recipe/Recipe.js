@@ -5,10 +5,10 @@ const Recipe = ({title,calories,image,ingredients}) => {
     return( 
         <div className='recipe'>
             <h1>{title}</h1>
-            <img src={image} alt=''/>
-            <p>Calories {calories}</p>      
+            <img className='image' src={image} alt=''/>
+            <p className='Cal'>Calories {Math.round(calories)}</p>      
                 {ingredients.map(ingredient => (
-                    <li>{ingredient.text}</li>
+                    <li className='list'>{ingredient.text}</li>
                 )
                     )}
         </div>

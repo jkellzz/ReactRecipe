@@ -36,6 +36,7 @@ const getSearch = e => {
 
   return(
     <div className='App'>
+    {/* <h1 className='head'> I want to make... </h1> */}
      <form onSubmit={getSearch} className='search-form'>
      <input className='search-bar' type='text' value={search}
      onChange={updateSearch}/>

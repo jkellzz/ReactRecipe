@@ -5,8 +5,22 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background: wheat;
+    background: white;
     align-items: center;
     min-width: 40%;
     padding: 1em;
+}
+
+.image {
+    border-radius: 60%;
+    width: 200px;
+    height: 200px;
+}
+
+.Cal {
+    font-weight: bolder;
+}
+
+.list {
+    font-family: monospace;
 }
