@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import Recipe from './components/Recipe'
+import Recipe from './components/Recipe/Recipe'
 import './App.css';
 // import Header from './components/Header'
 
@@ -36,7 +36,6 @@ const getSearch = e => {
 
   return(
     <div className='App'>
-     <h1 id='header'>I want to make...</h1>
      <form onSubmit={getSearch} className='search-form'>
      <input className='search-bar' type='text' value={search}
      onChange={updateSearch}/>
