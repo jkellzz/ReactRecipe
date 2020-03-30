@@ -39,4 +39,11 @@
   text-align: center;
   color: white;
   padding: 2em;
+  text-decoration: underline;
+}
+
+.Top {
+  text-align: center;
+  color: white;
+  padding: 1em;
 }
