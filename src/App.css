@@ -47,3 +47,10 @@
   color: white;
   padding: 1em;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: mistyrose;
+  border: 2px black solid;
+}
