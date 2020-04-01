@@ -40,12 +40,12 @@ const getSearch = e => {
 
   return(
     <div className='App'>
-      <nav>
+      {/* <nav>
         <p>Featured</p>
         <p>Breakfast</p>
         <p>Lunch</p>
         <p>Dinner</p>
-      </nav>
+      </nav> */}
     <h1 className='Top'> I want to make... </h1>
      <form onSubmit={getSearch} className='search-form'>
      <input className='search-bar' type='text' value={search}

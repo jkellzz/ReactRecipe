@@ -4,7 +4,7 @@ import './style.css'
 const lunch = () => {
         return( 
             <div>
-                <h1 className='head'>Lunch</h1>
+                <h1 className='head'>Lunch Favorites</h1>
                 <div className='lun'>
                 <div className='lunchrecipe'>
                     <img className='lunchimage' src='https://www.edamam.com/web-img/77d/77d71d0e0deec9db51434fe1effba84d.jpg' alt=''/>

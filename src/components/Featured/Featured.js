@@ -5,7 +5,7 @@ import './style.css'
 const featured = () => {
     return( 
         <div>
-        <h1 className='head'>SEIR 224 Favorite Dishes</h1>
+        <h1 className='head'>SEIR 224 Favorites</h1>
         <div className='feat'>
         <div className='featrecipe'>
             <img className='featimage' src='https://www.edamam.com/web-img/9cf/9cf990ce1cdfeae0016f4d2f8aa05fc1.jpg' alt=''/>
@@ -30,7 +30,7 @@ const featured = () => {
         <div class="br"></div>
         <div className='featrecipe'>
             <img className='featimage' src='https://www.edamam.com/web-img/0f7/0f7d603a3d2e5ab3e9447c296bdd0db1.jpg' alt=''/>
-            <h3>Slow Cooker Thai Yellow Curry With Grass Fed Beef Brisket</h3>
+            <h3>Slow Cooker Thai Yellow Curry</h3>
             <p className='Cal'>Calories 5826</p>      
             <a className='instruct' href='http://nomnompaleo.com/post/7118904494/slow-cooker-thai-yellow-curry-with-grass-fed-beef'>Cooking Instructions</a>        
         </div>

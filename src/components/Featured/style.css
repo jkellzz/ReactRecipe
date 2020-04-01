@@ -1,4 +1,4 @@
-/* .featrecipe {
+.featrecipe {
     border-radius: 10px;
     box-shadow: 0px 5px 20px rgb(71,71,71);
     margin: 20px;
@@ -9,25 +9,30 @@
     align-items: center;
     min-width: 30%;
     padding: 1em;
-} */
-
-.featrecipe {
-    display: flex;
-    border-bottom: 1px solid black;
-    justify-content: center;
-    
 }
 
-.br {
+/* .featrecipe {
+    display: flex;
+    border-bottom: 1px solid black;
+    flex: 1;
+    padding: 2em;
+    min-width: 30%;
+    box-shadow: 0px 5px 20px rgb(71,71,71);
+    margin: 1% 20%;
+
+    
+} */
+
+/* .br {
     flex-basis: 100%;
     height: 0;
-  }
+  } */
 
-/* .featimage {
-    border-radius: 20%;
-    width: 50%;
-    height: 50%;
-} */
+.featimage {
+    height: auto;
+    width: auto;   
+    border-radius: 30px; 
+}
 
 .Cal {
     font-weight: bolder;
@@ -42,3 +47,13 @@
     display: flex;
     
 }
+
+/* .featrecipe h3 {
+    padding: 5em;
+}
+
+
+.instruct {
+    text-decoration: none;
+    color: crimson;
+} */

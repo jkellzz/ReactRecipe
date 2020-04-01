@@ -7,14 +7,14 @@
     justify-content: space-around;
     background: white;
     align-items: center;
-    min-width: 40%;
+    min-width: 30%;
     padding: 1em;
 }
 
 .recimage {
     border-radius: 20%;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: auto;
 }
 
 .Cal {

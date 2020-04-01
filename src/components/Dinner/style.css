@@ -12,10 +12,9 @@
 }
 
 .dinnerimage {
-    border-radius: 20%;
-    width: 60%;
-    height: 60%;
-    
+    height: auto;
+    width: auto;   
+    border-radius: 30px; 
 }
 
 .Cal {
