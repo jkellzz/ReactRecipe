@@ -20,6 +20,8 @@ There are pros and cons for each of these API's after some research I believe th
 
 https://developer.edamam.com/edamam-docs-recipe-api
 
+**UPDATE** This API is awesome, but I did run into some issues while testing. If I make more than 4 requests in a minute then I get an email stating I am going over my alloted usage amount which causes the search functionality to become obsolete until the timer resets. It is relatively quick so I did not have to wait very long. 
+
 
 ```
 {q: "chicken", from: 0, to: 10, more: true, count: 168106, …}
@@ -114,6 +116,7 @@ Based on the initial logic defined in the previous sections try and breakdown th
 
 
 **This is subject to change as the project is underway. This is simply a template I would like to follow to start.** 
+**Update** reomved the header, it was causing too many issues with the css. 
 
 
 Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Also, put a gif at the top of your Readme before you pitch, and you'll get a panda prize.
