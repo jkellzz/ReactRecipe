@@ -81,8 +81,7 @@ Upload images of wireframe to cloudinary and add the link here with a descriptio
 
 
 ### MVP/PostMVP - 5min
-MVP:
--Basic Nav 
+MVP: 
 -Header/Searchbar
 -Featured section
 -Use API
@@ -90,6 +89,7 @@ MVP:
 -Clickable Featured Items
 
 Post MVP:
+-Navbar
 -Hamburger Menu with items
 -Faves Section with ability to save items
 -Breakfast section with featured items
@@ -104,7 +104,6 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
-| Header | First div with title and search bar | 
 | Recipe | This will hold basic information about the recipe (calories, ingredients, image, and title)| 
 | Featured | Will show the top hits for that day/week | 
 | Breakfast | Will show all time favorite breakfasts | 
@@ -121,24 +120,25 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| App | H | 4hrs| hrs | hrs |
-| Header | H | 6hrs| hrs | hrs |
-| Recipe | H | 4hrs| hrs | hrs |
-| Featured | H | 3hrs| hrs | hrs |
-| Breakfast | M | 2hrs| hrs | hrs |
-| Lunch | M | 2hrs| hrs | hrs |
-| Dinner | M | 2hrs| hrs | hrs |
-| Footer | M | 1hrs| hrs | hrs |
-| NavBar | L | 2hrs| hrs | hrs |
-| Styling | H | 6hrs| hrs | hrs |
-| Research | H | 6hrs| hrs | hrs |
-| Debugging | H | 6hrs| hrs | hrs |
-| Total | H | 44hrs| hrs | hrs |
+| App | H | 4hrs| 4hrs | 4hrs |
+| Recipe | H | 4hrs| 4hrs | 4hrs |
+| Featured | H | 3hrs| 4hrs | 4hrs |
+| Breakfast | M | 2hrs| 2hrs | 2hrs |
+| Lunch | M | 2hrs| 2hrs | 2hrs |
+| Dinner | M | 2hrs| 2hrs | 2hrs |
+| Footer | M | 1hrs| 1hrs | 0hrs |
+| NavBar | L | 2hrs| 3hrs | 0hrs |
+| Styling | H | 6hrs| 6hrs | 6hrs |
+| Research | H | 6hrs| 8hrs | 8hrs |
+| Debugging | H | 6hrs| 3hrs | 3hrs |
+| Total | H | 44hrs| 39hrs | 35hrs |
 
 ## Additional Libraries
 React Bootstrap
 React router dom
 React Styled components 
+
+**UPDATE** styled components ended up not being used. I ran into issues implementing them properly. 
 
 ## Code Snippet
 
